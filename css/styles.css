@@ -1,5 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --pressed: #292929;
+  --bg-form: #e5e5e5;
+}
+
 body {
   margin: 0;
+  font-family: "Inter", sans-serif;
 }
 
 .header {
@@ -21,15 +31,30 @@ body {
 }
 
 .menu {
-  display: flex;
-  flex-direction: column;
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 64px 120px;
+  background: var(--bg-form);
 }
 
 .menu-top {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 64px;
 }
 
 .navbar {
-  padding-top: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.nav-link {
+  color: var(--pressed);
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
