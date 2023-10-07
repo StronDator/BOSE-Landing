@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 64px 120px;
+  background-image: url(/images/header/Headphones.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  padding-top: 64px;
+}
