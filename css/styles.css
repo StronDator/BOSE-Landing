@@ -19,7 +19,7 @@ body {
   box-sizing: border-box;
   height: 100vh;
   padding: 64px 120px;
-  background-image: url(/images/header/Headphones.png);
+  background-image: url(./images/header/Headphones.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
