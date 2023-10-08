@@ -1,0 +1,38 @@
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  transform: translateX(-100%);
+  transition: transform 500ms;
+
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 64px 120px;
+  background: var(--bg-form);
+}
+
+.menu:target {
+  transform: translateX(-0%);
+}
+
+.menu-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}

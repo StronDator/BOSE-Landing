@@ -1,0 +1,40 @@
+.main {
+  padding: 120px;
+  background-color: #fff;
+}
+
+.recommended {
+  margin-bottom: 120px;
+}
+
+.recommended-products {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.product-photo {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.product {
+  flex-basis: 324px;
+}
+
+.product-title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.product-category {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.product-price {
+  margin: 0;
+  font-weight: 700;
+}

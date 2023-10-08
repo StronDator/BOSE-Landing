@@ -1,17 +1,17 @@
 /* BASE */
-/* @import "";
-@import "";
-@import ""; */
+@import "./base/common.css";
+@import "./base/container.css";
+@import "./base/section.css";
 
 /* LAYOUT */
-/* @import "";
+@import "./layout/header.css";
+@import "./layout/navbar-menu.css";
+@import "./layout/recommended.css";
+@import "./layout/categories.css";
+@import "./layout/how-to-buy.css";
+@import "./layout/footer.css";
 @import "";
-@import "";
-@import "";
-@import "";
-@import "";
-@import ""; */
 
 /* UTILS */
-/* @import "";
-@import ""; */
+@import "./utils/variables.css";
+@import "";
