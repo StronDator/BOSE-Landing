@@ -10,8 +10,7 @@
 @import "./layout/categories.css";
 @import "./layout/how-to-buy.css";
 @import "./layout/footer.css";
-@import "";
 
 /* UTILS */
 @import "./utils/variables.css";
-@import "";
+@import "./utils/visually-hidden.css";
